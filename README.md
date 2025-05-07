@@ -1,6 +1,6 @@
 ## NextJS Weather App
 
-Simple NextJS app that displays the current weather and the forecast for the next 3 days based on user input. User can also decide the unit in which to display temperature.
+Simple NextJS app that displays the current weather and the forecast for the next 3 days of the user inputted city. User can also decide the unit in which to display temperatures.
 
 Built with: 
 - Next.js
@@ -15,6 +15,8 @@ Dependencies:
 Clone repository and then run the following command to install the required dependencies:
 
 ```
+git clone git@github.com:ilincaion/weather-app.git
+cd weather-app
 npm install 
 ```
 
@@ -24,7 +26,7 @@ Once this is done, the application can be ran using the dev script
 npm run dev
 ```
 
-!! A .env file should be added at the root of the project where the WEATHER_API_KEY variable should be populated with a valid OpenWeatherMap API key
+!! A .env file should be added at the root of the project. It should specify a valid OpenWeatherMap API key under the WEATHER_API_KEY variable name
 
 For a production ready version, run the build and start scripts:
 
